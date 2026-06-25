@@ -9,3 +9,11 @@ With uv you can run jupyter in a temporary environment with necessary dependenci
 ```bash
 uv run --with-requirements requirements.txt jupyter lab
 ```
+
+Or, when using VS Code you can set up a virtual environment in `.venv`
+
+```bash
+uv venv
+uv pip install -r requirements.txt
+code .
+```
